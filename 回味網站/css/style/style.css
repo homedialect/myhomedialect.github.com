@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+.maain {
+	
+    background-color: #FFFFFF;
+    color: #616161;
+    text-align: center;
+}
+.headerr {
+    align-items: center;
+	
+}
+
+.border{
+    text-align: center;
+    font-family: serif, sans-serif, "Noto Sans Mono CJK JP Bold", "Noto Sans Mono CJK SC Bold";
+	
+}
+
+header {
+  position: fixed;
+  padding: 1.8em;
+  z-index:1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background:rgba(0,0,0,0);
+	
+}
+
+body{
+	margin:0 auto;
+	padding:0;
+}
+
+.nav{
+    width: 1200;
+    height: 0.2px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    left: 2px;
+    top: 0px;
+}
+
+.nav li{
+	list-style: none;
+	float: left;
+	width: 200px;
+	height: 100%;
+	line-height: 0px;
+	padding:  0em 1em 0em 3.8em;
+}
+
+.site-nav {
+  position: relative;
+  float: right;
+  z-index: 400;
+  top: 0;
+  left: 0;
+  display: block !important;
+  width: 80.3%;
+  height: 60px;
+  padding: .75em 1em 0 0;
+  opacity: .95;
+  background: none;
+	
+}
+
+.intro {
+  position: relative;
+  color: #343144;
+  background: #fff;
+  padding: 5em 13.5em 10em;
+}
+
+.titleintro {
+  position: relative;
+  color: #343144;
+  background: #fff;
+  padding:    1em 12em 1em 35.5em;
+  font-family: 'Noto Serif CJK TC', 'Noto Serif CJK TC Black', 'Noto Serif CJK TC Light';
+  font-size: 14px;
+	
+}
+
+.intro-text {
+	position: relative;
+ font-family: 'Noto Serif CJK TC', 'Noto Serif CJK TC Black', 'Noto Serif CJK TC Light';
+}
+
+.bigtitle{
+	padding:  40px 20px 2px 20px;
+    font-family: 'Noto Serif CJK TC', 'Noto Serif CJK TC Black', 'Noto Serif CJK TC Light';
+}
+
+.title {
+    position: relative;
+    font-size: 14px;
+    padding:1px 1px 1px 500px;
+    font-family: 'Noto Serif CJK TC', 'Noto Serif CJK TC Black', 'Noto Serif CJK TC Light';
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.img{
+    position: static;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.box1{padding-right: 70px 70px 70px;
+	float: left;
+	width:900px;
+	height:200px;
+}
+
+.center{
+	margin:280px 219px 100px;
+	width: 2000px;
+}
+
+.artworks {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.artwork {
+  display: flex;
+}
+
+.artwork-piece {
+  padding: 8% 0 8% 23.5%;
+  background-image:-moz-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+  background-image: -webkit-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+  background-image: -ms-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
+  width: 50%;
+}
+
+.artwork-description {
+  background: #26223e;
+  color: #fff;
+  width: 10%;
+  padding: 11.25em 5em 5em;
+}
+
+@media (max-width: 992px){
+}
+
+@media (max-width: 768px){
+}
+
+@media (max-width: 480px){
+}
